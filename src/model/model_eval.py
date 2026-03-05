@@ -57,7 +57,7 @@ def save_metrics(metric_dict, filepath:str) -> None:
         raise Exception(f'Error saving metrics to {filepath}:{e}')
 
 def main():
-    test_data_path = './data/processed/test_processed.csv'
+    test_data_path = './data/processed/test_processed_mean.csv'
     model_path = 'models/model.pkl'
     metrics_path = 'reports/metrics.json'
     
