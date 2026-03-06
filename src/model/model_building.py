@@ -55,8 +55,6 @@ def save_model(model: RandomForestClassifier, model_name: str) -> None:
     except Exception as e:
         raise Exception(f'Error saving model{model_name}:{e}')
 
-
-
 def main():
     try:
         params_path  = 'params.yaml'
